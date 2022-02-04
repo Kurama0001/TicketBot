@@ -1,0 +1,43 @@
+{
+  "PREFIX": ".",
+  "TICKET_ROLE": null,
+  "CATEGORY_TICKET": null,
+  "TOPIC_TICKET": null,
+  "ONE_TICKET_PER_MEMBER": true,
+  "TIMEOUT_DELETE_TICKET": 5000,
+  "EMBEDS": {
+    "OPEN_TICKET": {
+      "COLOR": "GREEN",
+      "FOOTER": "Réagi sur le bouton pour ouvrir un ticket !",
+      "THUMBNAIL": "https://styles.redditmedia.com/t5_3b1wr/styles/communityIcon_qdbg6bz0bud71.png?width=256&s=ccf3d06bf3b8056f312f207c7ce906cf69af6efd",
+      "TITLE": "Ouvrir un ticket",
+      "DESCRIPTION": "Ouvrir un ticket pour divers raisons !"
+    }, 
+    "WELCOME_TICKET": {
+      "COLOR": "BLUE",
+      "FOOTER": "Bienvenue dans votre ticket !",
+      "THUMBNAIL": "",
+      "TITLE": "Nouveau ticket",
+      "DESCRIPTION": "Bienvenu(e) dans votre ticket !"
+    },
+    "CLOSE_TICKET": {
+      "COLOR": "RED",
+      "FOOTER": "Fermeture du ticket en cours...",
+      "THUMBNAIL": "",
+      "TITLE": "Fermeture du ticket",
+      "DESCRIPTION": "A la prochaine."
+    }
+  },
+  "BUTTONS": {
+    "OPEN": {
+      "CUSTOM_ID": "openTicket",
+      "TITLE": "Ouvrir Ticket",
+      "COLOR": "PRIMARY"
+    },
+    "CLOSE": {
+      "CUSTOM_ID": "closeTicket",
+      "TITLE": "Fermer un ticket",
+      "COLOR": "DANGER"
+    }
+  }
+}
